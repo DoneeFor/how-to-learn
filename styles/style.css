@@ -123,7 +123,7 @@
 }
 
 .digits {
-  margin-top: 100px;
+  margin: 100px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -177,12 +177,6 @@
   font-weight: normal;
   margin: 0;
   margin-top: 20px;
-}
-
-.bank::after {
-  content: 'Всемирный банк 2017';
-  margin-top: 20px;
-  display: inline-block;
 }
 
 .feynman {
@@ -246,14 +240,21 @@
   padding-bottom: 90px;
   background-color: #1f1f1f;
   overflow: hidden;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
   color: white;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
 }
 
 .section-subtitle_theme_dark {
   color: white;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .table__cell_theme_dark {
@@ -263,6 +264,21 @@
   color: white;
 }
 
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  margin-top: 20px;
+}
+
 .kaufman__triangle {
   background-image: url('../images/kaufman-triangle.svg');
   width: 877px;
@@ -270,6 +286,7 @@
   position: absolute;
   right: -210px;
   top: 0;
+  z-index: -1;
 }
 
 .footer {
