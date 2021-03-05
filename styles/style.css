@@ -307,7 +307,7 @@
   margin-bottom: 40px;
 }
 
-.column_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
